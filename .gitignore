@@ -22,3 +22,8 @@ test/results.css.map
 
 # Ruby gems
 *.gem
+/.idea/mathsass.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/yarn.lock
+/.idea/.gitignore
