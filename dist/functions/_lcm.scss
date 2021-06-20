@@ -4,6 +4,8 @@
 // @example
 //     lcm(4, 6)   // 12
 //     lcm(30, 42) // 210
+@use "sass:math";
+
 @function lcm ($a, $b) {
-    @return $a * $b / gcd($a, $b);
+    @return math.div($a * $b, gcd($a, $b));
 }

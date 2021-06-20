@@ -39,11 +39,11 @@
   ],
   "bin": {},
   "devDependencies": {
+    "bootcamp": "~1.1.7",
     "grunt": "~1.0.4",
     "grunt-contrib-sass": "~1.0.0",
     "grunt-contrib-watch": "~1.1.0",
-    "grunt-init": "~0.3.2",
-    "bootcamp": "~1.1.7"
+    "grunt-init": "~0.3.2"
   },
   "engines": {
     "node": ">=0.8.0",

@@ -1,4 +1,6 @@
 // Convert to unitless rad
+@use "sass:math";
+
 @function unitless-rad ($angle) {
-    @return (0rad + $angle) / 1rad;
+    @return math.div(0rad + $angle, 1rad);
 }
